@@ -1,0 +1,2 @@
+tasks:
+  - init: nvm install 12.14 && npm i -g yarn lerna aws-cdk
