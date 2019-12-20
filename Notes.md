@@ -24,3 +24,6 @@ Used as basis: https://github.com/Quramy/lerna-yarn-workspaces-example
 * `lerna bootstrap` to make the magic happen (should only have one node_modules in root)
 * update "typeRoots" to point to "../../node_modules/@types"
 * in root `lerna run build`
+
+## Gitpod looks like fun :)
+* update gitpod yml to run latest node and install global packages we want
