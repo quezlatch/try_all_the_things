@@ -1,2 +1,2 @@
 tasks:
-  - init: sh setup.sh
+  - init: nvm install && npm i -g yarn lerna aws-cdk
