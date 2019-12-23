@@ -26,11 +26,17 @@ Used as basis: https://github.com/Quramy/lerna-yarn-workspaces-example
 * in root `lerna run build`
 
 ## Gitpod looks like fun :)
+
 * update gitpod yml to run latest node (using nvm) and install global packages we want
 * tried fiddling with docker image but weirdness happens when you update node
 
 ## aws iam setup
+
 * create aws admin user *tatt* (try all the things) with access key
 * add credentials to gitpod env vars so i can try stuff
 * I feel there is something that could be done with permission boundaries also
 
+## eek! emergency!
+
+* it looks as though gitpod is really unhappy if it doesn't get the
+node it wants. experiment with .nvmrc to see if we can fix this.
