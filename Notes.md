@@ -40,3 +40,10 @@ Used as basis: https://github.com/Quramy/lerna-yarn-workspaces-example
 
 * it looks as though gitpod is really unhappy if it doesn't get the
 node it wants. experiment with .nvmrc to see if we can fix this.
+* ignore for the moment :(
+
+## lerna/yarn
+* lerna doesn't like yarn 2. don't bother upgrading (barfs on mutex...)
+
+## cdk
+* after `cdk init` needs npm bits removing to do yarn/lerna
