@@ -47,3 +47,8 @@ node it wants. experiment with .nvmrc to see if we can fix this.
 
 ## cdk
 * after `cdk init` needs npm bits removing to do yarn/lerna
+* set up AWS environment variables in **gitpod**
+* `lerna bootstrap`
+* `@types\node` goes in the ci/iac folder. don't know why...
+* `tsconfig.json` needs a bit help to find the types
+
