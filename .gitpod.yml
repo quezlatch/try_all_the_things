@@ -1,6 +1,7 @@
 tasks:
   - init:
       python3 -m pip install --user awscli && 
+      complete -C aws_completer aws &&
       nvm install && 
       npm i -g yarn lerna aws-cdk
     command: nvm use
