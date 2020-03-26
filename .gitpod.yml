@@ -1,3 +1,6 @@
 tasks:
-  - before: nvm install && npm i -g yarn lerna aws-cdk
+  - init:
+      python3 -m pip install --user awscli && 
+      nvm install && 
+      npm i -g yarn lerna aws-cdk
     command: node -v
