@@ -3,4 +3,4 @@ tasks:
       python3 -m pip install --user awscli && 
       nvm install && 
       npm i -g yarn lerna aws-cdk
-    command: node -v
+    command: nvm use
